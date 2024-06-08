@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "479314531390",
+    "project_id": "ottp-5bad4",
+    "storage_bucket": "ottp-5bad4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479314531390:android:cb27d027be4b5ae3edad6f",
+        "android_client_info": {
+          "package_name": "com.example.ott"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479314531390-5j4400ov4uigkr9ulbpp8m47j1vrr1bk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6JbeHStbv8ZHF0komruIMZmFYziN9LFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479314531390-5j4400ov4uigkr9ulbpp8m47j1vrr1bk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
