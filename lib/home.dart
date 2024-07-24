@@ -1,3 +1,6 @@
+import 'dart:async';
+import 'dart:convert';
+
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/cupertino.dart';
@@ -6,6 +9,9 @@ import 'package:flutter/widgets.dart';
 import 'package:ott/themeprovider.dart';
 import 'package:ott/video.dart';
 import 'package:provider/provider.dart';
+import 'package:http/http.dart' as http;
+
+import 'mode.dart';
 
 
 
@@ -17,6 +23,7 @@ class home extends StatefulWidget {
 }
 
 class _homeState extends State<home> {
+
   int currentPage = 0;
 
   List<String> caro1 = [
@@ -225,7 +232,7 @@ class _homeState extends State<home> {
                       children: [
                         IconButton(
                           onPressed: () {
-                            Navigator.push(context, 
+                            Navigator.push(context,
                             MaterialPageRoute(builder:  (context) => const video()));
 
                           },
